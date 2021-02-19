@@ -1,40 +1,53 @@
-.nav-custom-bg-color {
-    background-color: #111715;
-    
+*{
+    box-sizing: border-box;
 }
-body {
-    /* background-color: #1d2926; */
-    font-family: 'Merriweather', serif;
-    /* color: white; */
-}
-.introduction {
-    text-align: center;
-    margin-top: 15%;
-    margin-bottom: 20%;
-    background-image: url("img/wp4932296");
-
-}
-.about-me {
-    margin-left: 8%;
-    margin-right: 8%
-}
-
-.about{
-    background-color: #111715;
+body{
     margin: 0;
-    padding: 20px;
+    background: wheat;
 }
-ul {
+.navbar{
+    background: black;
+    width: 100%;
+    overflow: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
     float: left;
 }
-.column {
-    margin-left: 8%;
-    margin-right: 5%;
+.navbar a{
+    width: 263px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    font: 17px;
+    color: black;
+    padding: 20px 6px;
+    font-family: arial"Lora", serif;
 }
-.space-below {
-    margin-bottom: 10%;
+.navbar a:hover{
+    background: white;
+    color: #64a19d;
 }
-.bg-none {
-    background-color: transparent;
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: black;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid white;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 100%;
+}
+.desc{
     text-align: center;
 }
